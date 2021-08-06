@@ -91,30 +91,6 @@ nav {
       }
     }
   }
-  .search {
-    background-color: transparent;
-    border: none;
-    border-radius: 0;
-    color: transparent;
-    font-style: normal;
-    line-height: 21px;
-    margin: 0;
-    padding: 0;
-    padding-left: 35px;
-    &:active,
-    &:focus {
-      border: none;
-      outline: none;
-    }
-    @include tablet-and-below {
-      display: none;
-    }
-    svg {
-      path {
-        fill: #808080;
-      }
-    }
-  }
   .nav-toggler {
     background-color: transparent;
     border: none;
@@ -126,33 +102,6 @@ nav {
     &:focus {
       border: none;
       outline: none;
-    }
-  }
-
-  // Other than homepage
-  // For Blog
-  &.for-blog {
-    transform: translateY(0);
-    background-color: transparent;
-    .primary-menu {
-      li > a {
-        font-weight: 700;
-        font-size: 12px;
-        color: #363636;
-        letter-spacing: 2px;
-        transition: all 0.3s;
-      }
-    }
-  }
-  &.for-blog.scroll {
-    background-color: $primary-color;
-    .primary-menu {
-      li > a {
-        color: #8e8e91;
-        &:hover {
-          color: white;
-        }
-      }
     }
   }
 }

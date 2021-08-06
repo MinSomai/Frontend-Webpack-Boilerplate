@@ -1,2 +1,2 @@
 import "./css/main.scss";
-import "./js/About";
+import "./js/Nav";

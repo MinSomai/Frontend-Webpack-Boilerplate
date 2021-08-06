@@ -31,13 +31,6 @@
     "webpack-merge": "^5.4.0"
   },
   "dependencies": {
-    "active-menu-link": "^1.1.8",
-    "animate.css": "^4.1.1",
-    "aos": "^2.3.4",
-    "basiclightbox": "^5.0.3",
-    "imagesloaded": "^4.1.4",
-    "parallax-vanilla": "^1.2.3",
-    "shufflejs": "^5.2.3",
     "siema": "^1.5.1"
   }
 }

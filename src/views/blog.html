@@ -8,17 +8,14 @@
     />
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
-  <body class="preload">
-    <div id="loadingDiv">
-      <div class="loading-anim"></div>
-    </div>
-    <%= require('html-loader!./partial/nav-blog.html') %>
+  <body>
+    <%= require('html-loader!./partial/nav.html') %>
     <main id="mainDiv">
       <!-- Section Blog Header -->
       <%= require('html-loader!./partial/blog/section-header.html') %>
 
       <!-- Section Blog Footer-->
-      <%= require('html-loader!./partial/footer-blog.html') %>
+      <%= require('html-loader!./partial/footer.html') %>
     </main>
   </body>
 </html>
